@@ -94,12 +94,12 @@ WSGI_APPLICATION = 'project.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'pizza',
-        'USER': 'root',
+        'USER': 'postgres',
         'PASSWORD': '0101011001',
-        'HOST': 'developer100.mysql.pythonanywhere-services.com',
-        'PORT': '3306',
+        'HOST': 'postgresql-174534-0.cloudclusters.net',
+        'PORT': '19866',
     },
     'OPTIONS': {
             'options': '-c timezone=Africa/Cairo'
