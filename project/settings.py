@@ -45,6 +45,7 @@ INSTALLED_APPS = [
 
     'api_auth',
     'pizzas',
+    'drf_yasg'
 ]
 
 REST_FRAMEWORK = {
