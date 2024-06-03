@@ -52,11 +52,12 @@
         
         Create an Order: POST http://127.0.0.1:8888/api/orders/ with a JSON body {"customer_name": "John Doe", "address": "123 Main St", "pizzas": [1]}
         
-        List Orders: GET http://127.0.0.1:8000/api/orders/
+        List Orders: GET http://127.0.0.1:8888/api/orders/
 
 
 - Step 7: Write Tests
     - In pizzas/tests.py, write tests for your API
     
 
-
+- Noteeeeeeee
+  - All ports in the endpoints are 8888, remember that.
