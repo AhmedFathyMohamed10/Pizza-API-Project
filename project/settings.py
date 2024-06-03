@@ -96,8 +96,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'pizza',
-        'USER': 'postgres',
-        'PASSWORD': '0101011001',
+        'USER': 'ahmedpostgresql',
+        'PASSWORD': '30101201400096qwertyuiop**A',
         'HOST': 'postgresql-174534-0.cloudclusters.net',
         'PORT': '19866',
     },
